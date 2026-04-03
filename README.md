@@ -1,35 +1,35 @@
 
 
-# <p align="center">birthdayreminder Plugin for Enigma2 (E²) ![GitHub repo size](https://img.shields.io/github/repo-size/oe-alliance-plugins/birthdayreminder.svg)</p>
+# <p align="center">BirthdayReminder Plugin for Enigma2 (E²) ![GitHub repo size](https://img.shields.io/github/repo-size/oe-alliance-plugins/BirthdayReminder.svg)</p>
 
 **Birthday Reminder: Reminds you of birthdays**
 
 
 ## Github status
-[![Build](https://github.com/oe-alliance-plugins/birthdayreminder/actions/workflows/buildbot.yml/badge.svg)](https://github.com/oe-alliance-plugins/birthdayreminder/actions/workflows/buildbot.yml)
-[![Lint Status](https://github.com/oe-alliance-plugins/birthdayreminder/actions/workflows/pylint.yml/badge.svg)](https://github.com/oe-alliance-plugins/birthdayreminder/actions/workflows/pylint.yml)
-[![Ruff Status](https://github.com/oe-alliance-plugins/birthdayreminder/actions/workflows/ruff.yml/badge.svg)](https://github.com/oe-alliance-plugins/birthdayreminder/actions/workflows/ruff.yml)
-[![Build Status](https://github.com/oe-alliance-plugins/birthdayreminder/actions/workflows/compile.yml/badge.svg)](https://github.com/oe-alliance-plugins/birthdayreminder/actions/workflows/compile.yml)
-[![AUTOTAG](https://github.com/oe-alliance-plugins/birthdayreminder/actions/workflows/autotag.yml/badge.svg)](https://github.com/oe-alliance-plugins/birthdayreminder/actions/workflows/autotag.yml)
+[![Build](https://github.com/oe-alliance-plugins/BirthdayReminder/actions/workflows/buildbot.yml/badge.svg)](https://github.com/oe-alliance-plugins/BirthdayReminder/actions/workflows/buildbot.yml)
+[![Lint Status](https://github.com/oe-alliance-plugins/BirthdayReminder/actions/workflows/pylint.yml/badge.svg)](https://github.com/oe-alliance-plugins/BirthdayReminder/actions/workflows/pylint.yml)
+[![Ruff Status](https://github.com/oe-alliance-plugins/BirthdayReminder/actions/workflows/ruff.yml/badge.svg)](https://github.com/oe-alliance-plugins/BirthdayReminder/actions/workflows/ruff.yml)
+[![Build Status](https://github.com/oe-alliance-plugins/BirthdayReminder/actions/workflows/compile.yml/badge.svg)](https://github.com/oe-alliance-plugins/BirthdayReminder/actions/workflows/compile.yml)
+[![AUTOTAG](https://github.com/oe-alliance-plugins/BirthdayReminder/actions/workflows/autotag.yml/badge.svg)](https://github.com/oe-alliance-plugins/BirthdayReminder/actions/workflows/autotag.yml)
 
 
-[![Plugin Version](https://img.shields.io/github/v/tag/oe-alliance-plugins/birthdayreminder?label=Latest%20Version&color=darkviolet)](https://github.com/oe-alliance-plugins/birthdayreminder/tags)
-[![Latest Release](https://img.shields.io/github/release-date/oe-alliance-plugins/birthdayreminder?label=From&color=darkviolet)](https://github.com/oe-alliance-plugins/birthdayreminder/releases/latest)
-[![Github last commit](https://img.shields.io/github/last-commit/oe-alliance-plugins/birthdayreminder)](https://github.com/oe-alliance-plugins/birthdayreminder)
-[![GitHub Activity](https://img.shields.io/github/commit-activity/y/oe-alliance-plugins/birthdayreminder.svg?label=commits)](https://github.com/oe-alliance-plugins/birthdayreminder/commits)
-[![GitHub Activity](https://img.shields.io/github/commit-activity/m/oe-alliance-plugins/birthdayreminder.svg?label=commits)](https://github.com/oe-alliance-plugins/birthdayreminder/commits)
+[![Plugin Version](https://img.shields.io/github/v/tag/oe-alliance-plugins/BirthdayReminder?label=Latest%20Version&color=darkviolet)](https://github.com/oe-alliance-plugins/BirthdayReminder/tags)
+[![Latest Release](https://img.shields.io/github/release-date/oe-alliance-plugins/BirthdayReminder?label=From&color=darkviolet)](https://github.com/oe-alliance-plugins/BirthdayReminder/releases/latest)
+[![Github last commit](https://img.shields.io/github/last-commit/oe-alliance-plugins/BirthdayReminder)](https://github.com/oe-alliance-plugins/BirthdayReminder)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/y/oe-alliance-plugins/BirthdayReminder.svg?label=commits)](https://github.com/oe-alliance-plugins/BirthdayReminder/commits)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/m/oe-alliance-plugins/BirthdayReminder.svg?label=commits)](https://github.com/oe-alliance-plugins/BirthdayReminder/commits)
 
 ## SonarCloud status
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_birthdayreminder&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_birthdayreminder)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_birthdayreminder&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_birthdayreminder)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_birthdayreminder&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_birthdayreminder)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_birthdayreminder&metric=bugs)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_birthdayreminder)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_birthdayreminder&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_birthdayreminder)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_birthdayreminder&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_birthdayreminder)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_birthdayreminder&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_birthdayreminder)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_birthdayreminder&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_birthdayreminder)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_BirthdayReminder&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_BirthdayReminder)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_BirthdayReminder&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_BirthdayReminder)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_BirthdayReminder&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_BirthdayReminder)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_BirthdayReminder&metric=bugs)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_BirthdayReminder)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_BirthdayReminder&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_BirthdayReminder)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_BirthdayReminder&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_BirthdayReminder)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_BirthdayReminder&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_BirthdayReminder)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_BirthdayReminder&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_BirthdayReminder)
 
-[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_birthdayreminder)
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_BirthdayReminder)
 
 ---
 
@@ -45,7 +45,7 @@ This plugin is released under GPLv3. See [LICENSE](https://www.gnu.org/licenses/
 
 ### 🤝 Contributing & Contact
 
-birthdayreminder is created by users for users and we welcome every contribution. There are no highly paid developers. There are only users who have seen a problem and done their best to fix it. This means birthdayreminder will always need the contributions of users like you. How can you get involved?
+BirthdayReminder is created by users for users and we welcome every contribution. There are no highly paid developers. There are only users who have seen a problem and done their best to fix it. This means BirthdayReminder will always need the contributions of users like you. How can you get involved?
 
 For questions or feedback, feel free and please open an issue or contribute with a Pull Request!
 
