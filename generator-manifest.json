@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "Birthday Reminder: Reminds you of birthdays",
+  "description_recipe": "Birthday Reminder: Reminds you of birthdays",
+  "history_source_dir": "birthdayreminder",
+  "internal_package_name": "enigma2-plugin-extensions-birthdayreminder",
+  "module_dir_name": "BirthdayReminder",
+  "output_subdir": "birthdayreminder",
+  "package_name": "enigma2-plugin-extensions-birthdayreminder",
+  "plugin_src_rel": "birthdayreminder",
+  "python_package": "BirthdayReminder",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "birthdayreminder",
+  "rrecommends": "",
+  "rreplaces": ""
+}
