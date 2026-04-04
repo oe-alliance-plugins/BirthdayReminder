@@ -4,7 +4,7 @@ from .BirthdayReminder import BirthdayStore, getAge
 
 # PYTHON IMPORTS
 from datetime import datetime, date, timedelta, time as dt_time
-from time import mktime, time, strftime, strptime
+from time import mktime
 from timer import Timer, TimerEntry
 from twisted.internet import reactor
 
