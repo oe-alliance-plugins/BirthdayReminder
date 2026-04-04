@@ -397,14 +397,14 @@ class BirthdayList(List):
 
 	def getList(self):  # some kind of buildFunc replacement :)
 		dformat = "%m/%d/%Y" if config.plugins.birthdayreminder.dateFormat.value == "mmddyyyy" else "%d.%m.%Y"
-		l = []
+		items = []
 		if self.__list:
 			for entry in self.__list:
 				name = entry[0]
 				birthday = entry[1].strftime(dformat)
 				age = str(getAge(entry[1]))
-				l.append((name, birthday, age))
-			return l
+				items.append((name, birthday, age))
+			return items
 	list = property(getList, setList)
 
 	def getIndexForEntry(self, entry):
