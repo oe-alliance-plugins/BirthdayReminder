@@ -8,9 +8,6 @@ from twisted.internet.protocol import DatagramProtocol, ServerFactory, ClientFac
 # ENIGMA IMPORTS
 from Components.config import config
 
-# for localized messages
-from . import _
-
 
 class BroadcastProtocol(DatagramProtocol):  # this class handles UDP broadcasts (send/receive)
 	def __init__(self, parent):
