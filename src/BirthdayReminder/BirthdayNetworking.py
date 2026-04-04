@@ -65,7 +65,7 @@ class TransferServerProtocol(Protocol):  # the server classes are used to send a
 			try:  # let's see if it's pickled data
 				receivedList = pickle_loads(data)
 				print("[Birthday Reminder] received birthday list from %s" % peer)
-			except Exception as err:
+			except Exception:
 				print("[Birthday Reminder] received unknown package from %s" % peer)
 			if receivedList is None:
 				return
@@ -103,7 +103,7 @@ class TransferClientProtocol(Protocol):  # the client classes are used to reques
 		try:
 			receivedList = pickle_loads(data)
 			print("[Birthday Reminder] received birthday list from %s" % peer)
-		except Exception as err:
+		except Exception:
 			print("[Birthday Reminder] received unknown package from %s" % peer)
 		if receivedList is None:
 			return
@@ -126,7 +126,7 @@ class TransferClientFactory(ClientFactory):
 		return TransferClientProtocol(self.parent, self.data)
 
 	def startedConnecting(self, connector):
-		dest = ''.join([connector.getDestination().host, ":", str(connector.getDestination().port)])
+		dest = ''.join([connector.getDestination().host, ":", str(connector.getDestination().port)])  # noqa: F841
 
 	def clientConnectionFailed(self, connector, reason):
 		print("[Birthday Reminder] connection to server %s failed. Reason: %s" % (connector.getDestination().host, str(reason.value)))
