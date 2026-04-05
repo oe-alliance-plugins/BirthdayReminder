@@ -1,12 +1,17 @@
 # PYTHON IMPORTS
 from pickle import loads as pickle_loads
-from six import ensure_binary
 from socket import SOL_SOCKET, SO_BROADCAST
 from twisted.internet.error import ConnectionDone
 from twisted.internet.protocol import DatagramProtocol, ServerFactory, ClientFactory, Protocol
 
 # ENIGMA IMPORTS
 from Components.config import config
+
+
+def ensure_binary(s):
+	if isinstance(s, str):
+		return s.encode("utf-8")
+	return s
 
 
 class BroadcastProtocol(DatagramProtocol):  # this class handles UDP broadcasts (send/receive)
